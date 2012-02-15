@@ -5,7 +5,7 @@ title: Equation 85
 {% include JB/setup %}
 
 
-### Posts List
+### Blog Posts
 
 <ul class="posts">
   {% for post in site.posts %}
