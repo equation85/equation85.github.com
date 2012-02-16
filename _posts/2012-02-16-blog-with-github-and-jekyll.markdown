@@ -9,13 +9,15 @@ tags: Other
 毕业有一年了，很久之前就萌生了写博客的念头，希望将学习和工作中的点滴记录成文字，但由于比较懒又不喜欢博客类网站提供的写作环境，故而一直未能真正动手进行。最近恰逢工作变动，于是对各种博客工具进行了大致的比较，最终决定采用[Github](http://github.com)+[Jekyll](http://jekyllbootstrap.com/lessons/jekyll-introduction.html)的方式来构建个人博客。   
 使用Jekyll的好处：
 
-- 可以在各种文字编辑器中通过`Markdown`或者`Textile`来写博文。
-- 可以在本地预览博客。
-- 写作无需Internet连接。
-- 可以通过Git进行发布。
-- 可以在静态Web服务器上构建博客站点。
-- 可以通过Github Pages服务免费构建博客。
-- 无需数据库。
+<ul>
+<li>可以在各种文字编辑器中通过Markdown或者Textile来写博文。</li>
+<li>可以在本地预览博客。</li>
+<li>写作无需Internet连接。</li>
+<li>可以通过Git进行发布。</li>
+<li>可以在静态Web服务器上构建博客站点。</li>
+<li>可以通过Github Pages服务免费构建博客。</li>
+<li>无需数据库。</li>
+</ul>
 
 本文将简要介绍如何在Github上建立个人博客。
 
