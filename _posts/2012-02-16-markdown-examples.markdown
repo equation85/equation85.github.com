@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Markdown Examples"
-category: 
+category: 技术
 tags: [Other]
 ---
 {% include JB/setup %}
