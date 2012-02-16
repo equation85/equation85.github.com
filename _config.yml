@@ -1,6 +1,6 @@
 # This is the default format. 
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /:categories/:title 
+permalink: /blog/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
@@ -10,7 +10,7 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : Equation 85
-tagline: Site Tagline
+tagline: 不积跬步，无以至千里！
 author :
   name : Frank Chen
   email : frank85chen@gmail.com
