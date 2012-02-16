@@ -50,7 +50,7 @@ Jekyll是一个静态网站生成工具。它允许用户使用HTML、Markdown�
 	$ sudo gem install rake
 
 ### 5. 配置\_config.yml
-在`_config.yml`中除了可以设置博客的常规信息之外，还默认自带了一些常用功能，如评论、Analytics跟踪等等。详细教程见[这里](http://jekyllbootstrap.com/usage/blog-configuration.html)。
+在`_config.yml`中除了可以设置博客的常规信息之外，还默认自带了一些常用功能，如评论（disqus）、Analytics跟踪（Google Analytics）等等。详细教程见[这里](http://jekyllbootstrap.com/usage/blog-configuration.html)。
 
 以上配置完成之后可以很容易的通过  
 
