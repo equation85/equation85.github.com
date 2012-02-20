@@ -3,7 +3,7 @@ layout: post
 title: "Ubuntu 11.10中安装jdk"
 date: 2012-02-20 16:58
 category: 技术
-tags: [Java, Config]
+tags: [Ubuntu, Java, Config]
 ---
 {% include JB/setup %}
 
