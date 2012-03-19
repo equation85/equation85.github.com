@@ -35,6 +35,18 @@
             {% assign group = 'navigation' %}
             {% include JB/pages_list %}
           </ul>
+		  <ul class="search">
+			  <form method="get" action="http://www.google.com/search" target="google_window">
+			  <div>	
+				<input type="text" value="Search..." name="q" id="s" onfocus="if (this.value == 'Search...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search...';}">
+				<input type="submit" name=”btnG” id="searchsubmit" value="Go">
+			  </div>
+			  <input type="hidden" name="ie" value="UTF-8" />
+			  <input type="hidden" name="oe" value="UTF-8" />
+			  <input type="hidden" name="hl" value="zh-CN" />
+			  <input type="hidden" name="domains" value="http://equation85.github.com" />
+			  <input type="hidden" name="sitesearch" value="http://equation85.github.com" />
+		  </ul>
         </div>
       </div>
     </div>
