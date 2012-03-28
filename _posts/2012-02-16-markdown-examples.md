@@ -6,17 +6,17 @@ tags: [Other]
 ---
 {% include JB/setup %}
 
-[上一篇文章](http://equation85.github.com/blog/blog-with-github-and-jekyll)中介绍了如何通过`Github`和`Jekyll`搭建个人博客。而要想方便的进行博客写作，那么`Markdown`是必不可少的工具。本文将通过一些简单的例子来说明`Markdown`的用法。
+[上一篇文章](http://equation85.github.com/blog/blog-with-github-and-jekyll)中介绍了如何通过Github和Jekyll搭建个人博客。而要想方便的进行博客写作，那么Markdown是必不可少的工具。本文将通过一些简单的例子来说明Markdown的用法。
 
 - - - 
 
 ## 什么是Markdown
-`Markdown`是一个将文本转化为`HTML`的工具。简单来说，`Markdown`是一个兼顾可读性与易用性的轻量级标记体系。`Markdown`并不追求大而全，它只关心`HTML`里最常用的几个标记，对于一些不常用的标记它允许直接将`HTML`标记插入文本。
+Markdown是一个将文本转化为HTML的工具。简单来说，Markdown是一个兼顾可读性与易用性的轻量级标记体系。Markdown并不追求大而全，它只关心HTML里最常用的几个标记，对于一些不常用的标记它允许直接将HTML标记插入文本。
 
 - - - 
 
 ## 标题
-`Markdown`提供了两种方式（Setext和Atx）来显示标题。
+Markdown提供了两种方式（Setext和Atx）来显示标题。
 #### 语法：
 
 	Setext方式
@@ -119,13 +119,13 @@ __代码段落__则是在每行文字前加4个空格或者1个缩进符表示�
 
 #### 语法：
 
-	Bash中可以使用`echo`来进行输出。
+	Bash中可以使用echo来进行输出。
 		$ echo 'Something'
 		$ echo -e '\tSomething\n'
 
 #### 效果：
 
-Bash中可以使用`echo`来进行输出。
+Bash中可以使用echo来进行输出。
 
 	$ echo 'Something'
 	$ echo -e '\tSomething\n'
@@ -133,7 +133,7 @@ Bash中可以使用`echo`来进行输出。
 - - - 
 
 ## 强调
-`Markdown`使用`\*`或`\_`表示强调。
+Markdown使用`\*`或`\_`表示强调。
 
 #### 语法：
 
@@ -151,10 +151,10 @@ Bash中可以使用`echo`来进行输出。
 - - - 
 
 ## 链接
-`Markdown`支持两种风格的链接：*Inline*和*Reference*。 
+Markdown支持两种风格的链接：*Inline*和*Reference*。 
 #### 语法：
 *Inline*：以中括号标记显示的链接文本，后面紧跟用小括号包围的链接。如果链接有title属性，则在链接中使用**空格**加**"title属性"**。  
-*Reference*：一般应用于当多个不同位置使用相同链接。通常分为两个部分，调用部分为`[链接文本][ref]`；定义部分可以出现在文本中的其他位置，格式为`[ref]: http://some/link/address (可选的标题)`。   
+*Reference*：一般应用于多个不同位置使用相同链接。通常分为两个部分，调用部分为`[链接文本][ref]`；定义部分可以出现在文本中的其他位置，格式为`[ref]: http://some/link/address (可选的标题)`。   
 *注：ref中不区分大小写。*   
 
 	这是一个Inline[示例](http://equation85.github.com "可选的title")。
@@ -193,7 +193,7 @@ Bash中可以使用`echo`来进行输出。
 在一行中使用三个或三个以上的`*`、`-`或`_`可以添加分隔线，其中可以有空白，但是不能有其他字符。
 
 #### 转义字符
-`Markdown`中的转义字符为`\`，可以转义的有：
+Markdown中的转义字符为`\`，可以转义的有：
 
 <ul>
 <li>\\ 反斜杠</li>
@@ -213,4 +213,4 @@ Bash中可以使用`echo`来进行输出。
 - - - 
 
 ## 结语
-`Markdown`语法很大程度上减少了编辑的成本，但是在写作这篇文章的时候也发现某些标记对中文的支持似乎并不完美，虽然这些缺陷可以通过直接插入`HTML`代码解决（但这么做一点都不漂亮）。总的来说，能够在离线状态下使用命令行模式进行写作还是很爽的，相比在线写作模式精力可以更专注。
+Markdown语法很大程度上减少了编辑的成本，但是在写作这篇文章的时候也发现某些标记对中文的支持似乎并不完美，虽然这些缺陷可以通过直接插入HTML代码解决（但这么做一点都不漂亮）。总的来说，能够在离线状态下使用命令行模式进行写作还是很爽的，相比在线写作模式精力可以更专注。
