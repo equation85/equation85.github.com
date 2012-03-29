@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Markdown语法示例"
+date: 2012-02-16 20:34
 category: 技术
 tags: [Other]
 ---

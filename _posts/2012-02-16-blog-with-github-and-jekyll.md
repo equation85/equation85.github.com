@@ -2,6 +2,7 @@
 layout: post
 title: "Github+Jekyll构建个人博客"
 comments: true
+date: 2012-02-16 19:57
 categories: 技术
 tags: Other
 ---
