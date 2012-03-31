@@ -3,7 +3,7 @@ layout: post
 title: "R与高性能计算——doMC+foreach实现并行"
 date: 2012-02-20 16:20
 category: 技术
-tags: [R, Parallel]
+tags: [R, HPC]
 ---
 {% include JB/setup %}
 
