@@ -18,6 +18,8 @@ tags: [Linux,Config]
 
 vim果然不愧为最好用的文本编辑器，通过安装几个插件很容易就能满足上面的需求。可以通过NERDTree来管理工程的代码，通过vim-r-plugin来实现R代码的高亮、自动补全、帮助和运行，通过vcscommand来进行版本控制（支持SVN和GIT），通过FuzzyFinder来实现文件的模糊查找。
 
+罗嗦了这么多，赶紧转入正题吧～
+
 ### [NERDTree](http://www.vim.org/scripts/script.php?script_id=1658 "NERDTree") —— 目录管理
 #### 常用命令
 \:NERDTree打开目录浏览器
@@ -80,4 +82,4 @@ let g:vimrplugin_underscore = 0   "" 键入下划线"_"时是否自动转化为�
 <img src="/assets/images/vim-r-sample.png" alt="效果图" title="效果图" width="100%" />
 
 ### 结语
-vim是一款非常小巧的编辑器，而且只要有命令行的地方（自动忽略Windows）就能使用，因此即使在家中通过ssh连接也能够毫无差别的进行使用。和Tmux搭配，不但能够用最少的手指移动来管理多个窗口，而且丝毫不用担心网络连接断开。绝对是居家旅行必备之上品！
+每一个用Linux的童鞋都有一颗Geek的心。vim就是这么一款非常小巧的编辑器，而且只要有命令行的地方（自动忽略Windows）就能使用，因此即使在家中通过ssh连接也能够毫无差别的进行使用。和Tmux搭配，不但能够用最少的手指移动来管理多个窗口，而且丝毫不用担心网络连接断开。绝对是居家旅行必备之上品！
