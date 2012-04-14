@@ -4,7 +4,6 @@ title: Equation 85
 ---
 {% include JB/setup %}
 
-
 ### Blog Posts
 
 <ul class="posts">
