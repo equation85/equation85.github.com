@@ -1,3 +1,3 @@
 #### 2012-03-28
-- Change theme to 'the-minimum'
+- Change theme to 'the-program'
 
