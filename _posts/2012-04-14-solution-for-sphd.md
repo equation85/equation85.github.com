@@ -2,7 +2,7 @@
 layout: post
 title: "Solutions of Shady Puzzles HD! app"
 date: 2012-04-14 09:45
-category: 不务正业
+category: "!正业"
 tags: [R]
 ---
 {% include JB/setup %}
