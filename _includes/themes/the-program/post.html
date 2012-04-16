@@ -12,9 +12,9 @@
 			<div class="bd">
 				<div class="entry-content">
 					{{ content }}
-					<div class="meta">
+
 						<!-- JiaThis Button BEGIN -->
-						<div id="ckepop">
+						<div id="ckepop" class="meta">
 							<a class="jiathis_button_tsina"></a>
 							<a class="jiathis_button_tqq"></a>
 							<a class="jiathis_button_renren"></a>
@@ -28,6 +28,8 @@
 						<script type="text/javascript">var jiathis_config = {data_track_clickback:true};</script>
 						<script type="text/javascript" src="http://v2.jiathis.com/code/jia.js?uid=1597059" charset="utf-8"></script>
 						<!-- JiaThis Button END -->
+						<br />
+					<div class="meta">
 						<p class="date-publish">
 							Published: 
 							<date class="date-pub" title="{{ page.date | date_to_xmlschema }}" datetime="{{ page.date | date_to_xmlschema }}" pubdate>
