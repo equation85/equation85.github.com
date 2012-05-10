@@ -35,7 +35,7 @@ $f^n := (f_{p,q})^n = \overbrace{f \cdot f \cdots f}^{n个}$
 
 所以\`f^n\`可分解为
 
-\`f^n = {(f * f^(n-1), text{if n is odd}), ((f_(p',q')^(n/2))^2, text{if n is even}):}\`
+\`f^n = {(f * f^(n-1), text{if n is odd}), ((f^2)^(n/2) = f_(p',q')^(n/2), text{if n is even}):}\`
 
 于是也就有了下面这样的递归实现（这里我再转一下，不过是R的）
 
