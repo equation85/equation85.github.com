@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_eq
 title: "在博客中支持数学公式"
 date: 2012-04-15 22:10
 category: "!正业"
@@ -11,7 +11,7 @@ tags: [JavaScript]
 
 对于建立在Github上的博客，还是比较推荐[ASCIIMathML](http://www1.chapman.edu/~jipsen/mathml/asciimath.html)。非常简单，只需在网页head中加上js代码就可以了。
 
-	<script type="text/javascript" src="{{ASSET_PATH}}/js/ASCIIMathML.js"></script>
+	<script type="text/javascript" src="/path/to/ASCIIMathML.js"></script>
 
 Normal distribution function: \`F(x;mu,sigma) = 1/(sqrt (2 pi) sigma) int_-oo^x e^(-(y-mu)^2/(2 sigma^2)) dy, -oo < x < oo\`
 
