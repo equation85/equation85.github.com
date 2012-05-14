@@ -35,7 +35,7 @@ FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License
 (at http://www.gnu.org/licences/lgpl.html) for more details.
 */
 
-var mathcolor = "white";        // change it to "" (to inherit) or another color
+var mathcolor = "";        // change it to "" (to inherit) or another color
 var mathfontsize = "1em";      // change to e.g. 1.2em for larger math
 var mathfontfamily = "serif";  // change to "" to inherit (works in IE) 
                                // or another family (e.g. "arial")

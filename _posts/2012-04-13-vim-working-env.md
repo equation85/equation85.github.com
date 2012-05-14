@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "从vim到eclipse再到vim"
+title: "Vim IDE for R"
 date: 2012-04-13 21:18
 category: 技术
 tags: [Linux, Config]
