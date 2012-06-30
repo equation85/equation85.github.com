@@ -2,7 +2,7 @@
 layout: post
 title: "[转] Ubuntu下用GAE做goAgent代理"
 date: 2012-04-15 16:02
-category: "!正业"
+category: "备忘"
 tags: [Linux, goAgent]
 ---
 {% include JB/setup %}
