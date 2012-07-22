@@ -11,7 +11,7 @@ tags: [Mac, Config]
 
 在Mac下部署Jekyll需要以下几个组件：**xcode**, **git**, **rvm**, **ruby**
 
-#### Xcode
+#### Xcode, Git
 见[上一篇博文](/blog/customize-terminal-on-mac/)。
 
 #### RVM
