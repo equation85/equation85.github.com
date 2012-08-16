@@ -2,8 +2,8 @@
 layout: post
 title: "Customized Vim"
 date: 2012-08-16 19:40
-category: 
-tags: []
+category: "备忘"
+tags: [Config, Mac]
 ---
 {% include JB/setup %}
 
