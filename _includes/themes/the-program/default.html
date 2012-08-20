@@ -27,6 +27,18 @@
 						<li class="category"><a href="/categories.html">categories</a></li>
 						<li class="page"><a href="/pages.html">pages</a></li>
 						<li class="tag"><a href="/tags.html">tags</a></li>
+						<li class="search">
+						    <form method="get" action="http://www.google.com/search" target="google_window">
+						    <div>	
+						  	<input type="text" value="Search..." name="query" id="search-box" onfocus="if (this.value == 'Search...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search...';}">
+						  	<input type="submit" name=”btnG” id="search-submit" value="Go">
+						    </div>
+						    <input type="hidden" name="ie" value="UTF-8" />
+						    <input type="hidden" name="oe" value="UTF-8" />
+						    <input type="hidden" name="hl" value="zh-CN" />
+						    <input type="hidden" name="domains" value="http://equation85.github.com" />
+						    <input type="hidden" name="sitesearch" value="http://equation85.github.com" />
+						</li>
 					</ul>
 				</nav>
 			</div><!-- unit-inner -->
@@ -46,18 +58,6 @@
 			<div class="unit-inner unit-foot-inner">
 				<div class="misc vcard">
 					<ul>
-						<li class="search">
-						    <form method="get" action="http://www.google.com/search" target="google_window">
-						    <div>	
-						  	<input type="text" value="Search..." name="query" id="search-box" onfocus="if (this.value == 'Search...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search...';}">
-						  	<input type="submit" name=”btnG” id="search-submit" value="Go">
-						    </div>
-						    <input type="hidden" name="ie" value="UTF-8" />
-						    <input type="hidden" name="oe" value="UTF-8" />
-						    <input type="hidden" name="hl" value="zh-CN" />
-						    <input type="hidden" name="domains" value="http://equation85.github.com" />
-						    <input type="hidden" name="sitesearch" value="http://equation85.github.com" />
-						</li>
 						<li><a href="/atom.xml">RSS</a></li>
 					</ul>
 				</div><!-- misc -->
