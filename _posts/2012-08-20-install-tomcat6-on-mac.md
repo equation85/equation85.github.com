@@ -2,7 +2,7 @@
 layout: post
 title: "Mac上Tomcat6的安装"
 date: 2012-08-20 21:59
-category: 备忘
+category: "备忘"
 tags: [Mac, Config, Tomcat]
 ---
 {% include JB/setup %}

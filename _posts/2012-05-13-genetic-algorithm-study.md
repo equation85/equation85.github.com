@@ -2,7 +2,7 @@
 layout: post_eq
 title: "学习笔记——遗传算法"
 date: 2012-05-13 17:19
-category: 修炼之路
+category: "修炼之路"
 tags: [Algorithm, R]
 ---
 {% include JB/setup %}

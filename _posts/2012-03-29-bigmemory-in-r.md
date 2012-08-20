@@ -2,7 +2,7 @@
 layout: post
 title: "R与大数据——bigmemory"
 date: 2012-03-29 19:29
-category: 技术
+category: "技术"
 tags: [R, Big Data, HPC]
 ---
 {% include JB/setup %}

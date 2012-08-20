@@ -2,7 +2,7 @@
 layout: post
 title: "R与大数据——Map/Reduce"
 date: 2012-03-31 23:27
-category: 技术
+category: "技术"
 tags: [R, Big Data, HPC]
 ---
 {% include JB/setup %}

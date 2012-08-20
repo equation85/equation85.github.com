@@ -2,7 +2,7 @@
 layout: post
 title: "批量文件编码转换工具"
 date: 2012-08-20 21:02
-category: 工具
+category: "工具"
 tags: [Linux]
 ---
 {% include JB/setup %}
